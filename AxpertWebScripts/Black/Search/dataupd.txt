@@ -1,0 +1,6 @@
+Updating tstruct gifim
+ Updating Field :cmt
+ Updating Field :inputfield3
+ Updating Field :inputfield1
+ Updating Field :inputfield2
+  Updating DC: dc1

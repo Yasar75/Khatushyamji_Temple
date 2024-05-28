@@ -1,0 +1,1316 @@
+FUNCTIONS IN PROFIT 5RM
+=======================
+
+GRID RELATED FUNCTIONS IN A TSTRUCT
+-----------------------------------
+
+**$<b>Abs(Num:Numeric)</b>
+Converts Num to positive.
+
+**/
+
+**$<b>Total(FieldName: string).</b>
+
+This function cumulates the values in a grid column in a TStruct. FieldName is the name of the grid column.
+
+Use in : TStructs
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+Total({Amount}) gives 2100.
+**/
+
+**$<b>Sum(FieldName, FieldValue, CumulateField : string)</b>
+
+Does a conditional cumulation. Cumulates the values in CumulateField. Considers only rows in the grid 
+where the value in FieldName is equal to the FieldValue.
+
+Use in : TStructs
+
+Example :
+Consider a grid frame as follows
+
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+Sum({Category}, {A}, {Amount}) will return 800.
+**/
+
+**$<b>SumTill(FieldName, FieldValue, CumulateField, RowNo)</b>
+
+Does a conditional cumulation till the given Rowno. Cumulates the values in CumulateField. Considers 
+only rows in the grid where the value in FieldName is equal to the FieldValue and rowno less than or 
+equal to the given rowno.
+
+Use in : TStructs
+
+Example :
+Consider a grid frame as follows
+
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+
+SumTill({ItemCategory}, {A}, {Amount}, 4) will return 300.
+
+**/
+**$<b>GetMax(FieldName)</b>
+Returns the row that contains the maximum value in a column in a grid DC.
+
+Use in : TStructs.
+
+Example :
+
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+Max({Amount}) returns thr 6 because the 6th row contains the maximum value in the amount column.
+
+**/
+**$<b>GetValue(Fieldname: character; RowNo: numeric)</b>
+
+FieldName is the name of a field. This function returns the value of the field at the given row. For fields 
+in a non grid DC, give the rowno as 1.
+
+Use in : TStructs
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+GetValue({Category}, 3) gives B.
+
+**/
+**$<b>GetId(FieldName: string; RowNo: numeric)</b>
+
+FieldName is the name of a field in the TStruct. This function returns the IdValue of the field at the given row. 
+For fields in a non grid DC, give the rowno as 1. This is applicable only for source key (selectable) from fields.
+
+Use in : TStructs
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+If Category is a source key true (selectable) field then GetId({Category},2) will return the idvalue of A.
+
+**/
+**$<b>GetRow(FieldName, Fieldvalue: string)</b>
+
+Returns the row in the grid that has the fieldvalue in the fieldname column.
+
+Use in : TStructs
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+GetRow({Category}, {A}) returns 1. Only the first matching rowno is returned.
+
+**/
+**$<b>GetRowCount(FieldName: string)</b>
+Returns the number of rows in a grid frame that contains the given field.
+
+Use in : TStructs
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+GetRowCount({Category}) return 6.
+
+**/
+**$<b>GetOld(FieldName: string; RowNo: Integer)</b>
+Returns the old value in a field at the given row. This is useful in modification of a transaction. In case of a 
+non grid field, send 1 as rowno.
+
+Use in : TStructs
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A -> B		100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+If a transaction is opened in modification mode and the category in the first field is changed from A to B then 
+GetOld({Category}, 1) will return A.
+**/
+**$<b>Cell(col, row:numeric)</b>
+Returns the value in the grid frame from the cell identified by col, row.
+
+Example : Consider a grid frame as follows
+Sno	Category		Amount
+1	  A			100.00
+2	  A			200.00
+3	  B			300.00
+4	  C			400.00
+5	  A			500.00
+6	  B			600.00
+
+Cell(2, 4) returns C
+**/
+
+**$<b>AddRow(FrameName: string): string; [TStruct]</b>
+**/
+
+**$<b>DeleteRow(FrameName:string; rowno:integer):String; [TStruct]</b>
+**/
+**$<b>GetMin(FieldName) <b>
+Returns the row in the grid that contains the minimum value in the column given by fieldname. Sames as GetMax function.
+
+**/
+
+TSTRUCT RELATED FUNCTIONS
+-------------------------
+MakeTreeId(id: String; Level: integer)
+Not in use.
+
+**
+**$<b>FieldChanged(FieldName, RowNo)</b>
+
+Returns T if the given field at given rowno is changed. Send Rowno as 1 for non grid fields.
+**/
+
+**$<b>SetValue(FieldName: string; Rowno: integer;Value: String)</b>
+Sets the value for the field at the given row to the given value. For non grid fields, the rowno should be 1.
+
+Example :
+Consider a TStruct that has a field named ItemCode in a Grid DC. If the value of the itemcode in row 2 is 
+to be changed to 'x1' use SetValue({ItemCode},2,{x1}).
+
+**/
+
+**$<b>GetSQLValue(SQLText, ColumnName: String)</b>
+Not used now. Maintained for backward compatability. Use FireSQL instead.
+
+**/
+
+**$<b>SetProperty(fName, propertyname, value: String)</b>
+Sets the property with the given value for the field given by fName.
+
+PropertyName could be any of the following
+- Readonly 
+- visible
+- ModeOfEntry
+- SQL
+- Caption
+- Suggestive
+- Expression
+- ValidateExpression
+- FontName
+- FontSize
+- FontColor
+- FontStyle
+- Color
+- Decimals
+
+
+Example :
+Consider a requirment where a field named DocNo should be readonly if field Authorised contains No. This can be achieved as follows
+{OnFormLoad}
+flag := iif(Authorised={Yes}, {F}, {T})
+SetProperty({DocNo}, {ReadOnly}, flag)
+
+**/
+**$<b>SetSequence(FieldName, Prefix:String)</b>
+Sets the sequence from the next number should be generated for an autogenerated field.
+
+Note : The functions related to numbering sequence viz SetSequence & SetExtSequence cannot be used in OnFormLoad. Moreover, the case of the parameters should exactly match the ones defined in the tables. That is, if the field name is defined in lower case, the field name should be 
+in lower case in these functions also.
+
+Example :
+Consider a TStruct that has a field name Type. This can have values A or B. If it is A, then the DocNo field following this field 
+should have the 'AAA-' sequence selected. If type is not A, then the sequence for DocNo should be 'BBB-'. 
+
+{OnExit Type}
+seq := iif(Type = {A}, {AAA-}, {BBB-})
+SetSequence({DocNo}, Seq)
+
+**/
+
+**$<b>ResetActivecomp()</b>
+Use this function if some of the components are hidden using the SetProperty function in an expression set. This will focus on the next visible component.
+
+**/
+**$<b>LoadTempFile(FileName)</b>
+Loads the data the given filename into the transaction form. This data should have been stored by the "Save To File" option in the transaction form.
+
+**/
+
+**$<b>DeleteTempFile(FileName)</b>
+Deletes the temporary file in which a transaction data has been stored. The temporary file should have been created by the "Save to file" option.
+
+**/
+**$<b>ActivateField(Fieldname, RowNo)</b>
+This function will set the focus on the given field and rowno. This function can be used in an expression set to set focus conditionally on a field.
+
+Example
+{onexit docid}
+ActivateField({CustCode}, 1)
+
+The above expression set will set focus to the customer name field when exit from the Docid field.
+
+**/
+**$<b>AllowFrameChange(FrameNo, Allow)</b>
+This function will disallow changes to any field in the given frameno if Allow is f. It allows changes if allow is t. This can be used in an expression set to set a frame readonly.
+
+Example
+To disallow modification of fields in first frame in modification mode set the expression set as follows :
+{AfterLoadData}
+AllowFrameChange(1, {f})
+
+**/
+**$<b>AllowFieldChange(FieldName, Allow)</b>
+Changes to a given field will be disallowed if Allow is f & vice versa if allow is t.This can be used in an expression set to set a field readonly.
+
+Example
+To disallow modification of the rate field data entry operators, use the following expression set.
+{OnFormLoad}
+c := iif(usercategory = {data entry}, {f}, {t})
+AllowFieldChange({Rate}, c)
+
+**/
+**$<b>PrintDocNames</b>
+This is a variable which can be set in an expression set. The document names that need to be printed can be set in this variable. 
+If there are more than one document, it can be given as a comma seperated string. If this variable is set, the print format selection 
+window will not pop up.
+
+Example : 
+
+1..
+PrintDocNames := {printform1, printform2}
+
+2..
+PrintDocNames := iif(usercategory = {data entry}, {printform1}, {printform1, printform2})
+
+**/
+
+**$<b>ExecuteOption(Caption)</b>
+This function can be used in an expression set to execute any functionality associated with any button in the Transaction form. The button caption is sent as a parameter to that function.
+
+Example :
+{OnDCEnter GridFrame}
+ExecuteOption({FillGrid})
+
+FillGrid is the caption of a button in the TStruct.
+
+**/
+
+**$<b>RefreshField(FieldName)</b>
+This function can be used in an expression set. This can be used to refresh the field values of the given field. In case, the field is 
+calculated based on an expression. Any of the fields used in the expression are changed, the effect can be shown immediately on screen 
+using this function in the onexit of the parent field.
+
+**/
+
+**$<b>RefreshFrame(FrameNo)</b>
+This function will refresh all the fields in a frame. In case of a grid frame all the rows will be refreshed. 
+
+**/
+**$<b>InitGrid(FrameNo)</b>
+Delete all rows from a grid frame given by frameno.
+**/
+
+**$<b>GetOld(FieldName, RowNo)</b>
+This function will return the old value of the given field & row. This is valid only when a transaction is modified. The old value is 
+the value that was stored in the database before the transaction was loaded for modification.
+**/
+
+**$<b>GetOldId(FieldName, Rowno)</b>
+This function will return the old id value of the given field & row.
+
+**/
+
+**$<b>SQLRegVar(SQLText)</b>
+This function will register the result of the SQL for using them in expressions. The SQL result should have the following columns :
+VarName		VarType		VarValue
+
+The function will register the given varname with the varvalue. For example if the SQL result is as follows 
+
+VarName		VarType		VarValue
+a1		  n		   100.00
+a2		  c		   abc
+a3		  d		01/04/2004
+
+Three variables will be registered as follows :
+a1 = 100.00
+a2 = abc
+a3 = 01/04/2004
+
+Now these, vars could be used in expressions.
+
+**/
+
+**$<b>CheckStock(ItemId, OldItemId, DocDate, OldDocDate, PlusOrMinus, Qty, OldQty)</b>
+This function will check if enough stock is available to carry out the transaction for the given ItemId as on given DocDate for the Qty. 
+In case of modification mode, the old values will be used if the modification can be allowed. The function will return T if the transaction 
+can be allowed or else a message will be returned.
+
+**/
+
+
+**$<b>AllowedUserNames</b>
+This is a system variable. The sequence window allows users to both select & edit the sequences. In case there is a need to allow only 
+certain users/user categories to modify or add to sequence list, it can be acheived as follows 
+
+{OnFormLoad}
+AllowedUserNames := {user1,user2}
+
+In case the control has be set on user categories then
+{OnFormLoad}
+AllowedUserCategories := {usercategory1, usercategory2}
+
+**/
+
+**$<b>EnableButton(caption, flag)</b>
+Any button in a TStruct can be conditionally enabled/disabled. For example to disable the save button if user1 has logged in and enable it 
+other wise, define an expression set as follows 
+
+{onformload}
+f := iif(username = {user1}, {F}, {T})
+enablebutton({save}, f)
+
+**/
+
+**$<b>GetSubTotal(FieldName, ParentRow)</b>
+This function can be used in TStructs to get the total of any field from a sub form into a field in parent grid. The field given by fieldname (which is to be in the sub from) is summed and returned. Only rows related to the given parentrow will be summed. 
+
+Example :
+
+In accounts voucher, to get the sum of costamount and store in another column in the accounts grid set the expression as follows :
+
+GetSubTotal({CostAmount}, ActiveRow)
+
+**/
+**$<b>RoudedDiff(FieldName, RowNo, RoundTo)</b>
+This function will round off the value in fieldname to the nearest whole number based on the value given in RoundTo. The difference between 
+the rounded value and the actual value will be returned by this function. If rowno is greater than zero then all the values in the column
+ till Rowno will be cumulated and then rounded.
+
+Example :
+Consider the amount column in a grid in a TStruct. This needs to be cumulated and rounded of to the nearest rupee. The difference has be got into the roundoff field. To do this an expression as below can be defined for the roundoff field 
+RoundedDiff({Amount}, -1, 100)
+
+If the cumulation has to be done till acitverow then the expression would be
+RoundedDiff({Amount}, ActiveRow-1, 100)
+**/
+
+**$<b>SetSystemVar(Varname, Value)</b>
+Any of the system vars can be changed from a TStruct. This can be done by using the SetSystemVar function.
+**/
+
+GENERAL FUNCTIONS
+-----------------
+**$<b>TrimVal(Value: string)</b>
+Returns a trimmed value of the given string.
+
+Example : TrimVal({ abc }) returns abc.
+**/
+
+**$<b>Getinteger(Value :numeric)</b>
+Returns the integer part in a decimal number.
+
+Example : GetInteger(12.33) returns 12.
+**/
+
+**$<b>GetLength(value : string)</b>
+Returns the length of the string.
+
+Example : GetLength({xyz}) returns 3.
+**/
+
+**$<b>FindAndReplace(S, FindWhat, ReplaceWith: String)</b>
+Finds the string given by FindWhat & replaces it with ReplaceWith in String S & returns the new string.
+
+Example : FindAndReplace({xxxyyyzzz}, {xxx}, {aa}) returns aayyyzz.
+**/
+**$<b>FormatAmount(Value,DecLen:numeric,withComma,MillionRep,NegativeRep,PositiveRep : String) </b>
+This will format the number given in Value parameter.
+
+DecLen is number of decimals.
+
+WithComma - if {T} will insert commas.
+
+MillionRep - if {T} will insert commas as it is in a millions system.
+
+NegativeRep - if {br} then shows negative amounts within parenthesis else 
+appends the given string to the negative number. 
+
+PositiveRep - if {br} then shows negative amounts within parenthesis else 
+appends the given string to the positive number. 
+
+Example :
+FormatAmount(100000, 2, {F}, {br}, {}) -> 1,00,000.00
+FormatAmount(-100000, 2, {F}, {br}, {}) -> (1,00,000.00)
+FormatAmount(100000, 2, {F}, {Cr}, {}) -> 1,00,000.00 Cr
+FormatAmount(100000, 2, {T}, {}, {Db}) -> 100,000.00 Db
+
+**/
+**$<b>Function FormatAccAmount(Value,DecLen:numeric, withComma, MillionRep, ALIE, Rep :String)</b>
+
+Converts the given numeric value into a formatted string.
+
+DecLen is number of decimals.
+
+WithComma - if {T} will insert commas.
+
+MillionRep - if {T} will insert commas as it is in a millions system.
+
+ALIE - could have a value a,l,i or e. A stands for Assets, l for Liability, i for income & e for Expense. For Assets & Expenses value 
+greater than zero is considered as positive & less than zero is considered as negative. For Liabilities & Income, value < 0 is considered 
+as positive & > 0 is considered as negative.
+
+Rep - if {br}, negative amounts will be enclosed in paranthesis else the string will be appended to the negative amount.
+
+Example :
+FormatAmount(100000, 2, {F}, {a}, {br}) -> 1,00,000.00
+FormatAmount(-100000, 2, {F}, {a}, {br}) -> (1,00,000.00)
+FormatAmount(100000, 2, {F}, {l}, {br}) -> (1,00,000.00)
+FormatAmount(-100000, 2, {T}, {i}, {Db}) -> 100,000.00
+FormatAmount(100000, 2, {T}, {i}, {Db}) -> 100,000.00 Db
+
+
+FormatValue(value, DecLen numeric; ApplyCommas,MillionRep: String)
+Format the given numeric value & returns a formatted string. 
+
+DecLen - specifies the number digits after decimal in the result.
+
+WithComma - if {T} will insert commas.
+
+MillionRep - if {T} will insert commas as it is in a millions system.
+
+Example :
+FormatValue(100000, 2, {F}, {F}) -> 100000.00
+FormatValue(100000, 2, {T}, {F}) -> 1,00,000.00
+FormatValue(100000, 2, {T}, {T}) -> 100,000.00
+**/
+ 
+**$<b>LeftPad(S: String; MaxLength: integer; c: Char)</b>
+Pads the given string S to the left to make the length of the string equal to MaxLength. The character that is padded is given in c.
+
+Example :
+LeftPad('abc', 5, 'x') -> 'xxabc'
+**/
+
+**$<b>Pad(S: String; MaxLength: integer; c: Char)</b>
+Pads the string S to the right with the character given in C.
+
+Example :
+LeftPad('abc', 5, 'x') -> 'abcxx'
+**/
+
+**$<b>Upper(Str : String)</b>
+Converts the given string to upper case.
+**/
+
+**$<b>Lower(Str : String)</b>
+Converts the given string to lower case.
+**/
+
+**$<b>DTOC(PDate : TDateTime)</b>
+Converts a Datetime to String.
+**/
+
+**$<b>CTOD(PDate : String)</b>
+Converts character to DateTime type.
+**/
+
+**$<b>CMonthYear(Dt : TDateTime)</b>
+Returns the character month in the given date.
+
+Example :
+CMonthYear('01/04/2004') -> April
+**/
+
+**$<b>Rnd(Amount, RoundTo : Numeric)</b>
+Rounds off the given amount to the nearest given RoundTo figure. The RoundTo could be 100 to round off the amount to nearest 100. 
+If RoundTo is 50, the amount will be rounded to the nearest 50. This could be useful to roundoff amounts to the nearest rupee 
+or nearest 50 paisa etc.
+
+
+Example :
+Rnd(100.20, 50) -> 100.00
+Rnd(100.45, 50) -> 100.50
+Rnd(100.65, 50) - > 100.50
+Rnd(100.20, 100) -> 100.00
+Rnd(100.65, 100) -> 101.00
+
+**/
+**$<b>Stuff(Str1,Str2 : String; P : Numeric)</b>
+Inserts the str2 into str1 at position p. 
+
+Example :
+Stuff({abcd}, {x}, 2) -> axbcd
+Stuff({abcd}, {}, 2) -> acd
+Stuff({abcd}, {xyz}, 2) -> axyzbcd
+**/
+
+**$<b>Round(Num , Decimals:Numeric)</b>
+Rounds the given number to given decimals.
+
+Example :
+Round(100.334,2) -> 100.33
+Round(100.337,2) -> 100.34
+**/
+
+**$<b>IIF(Expression, True_Result, False_Result : String)</b>
+Evaluates the expression. If expression returns True, then the True_result is returned else the false_result is returned.
+
+Example :
+iif(10>5, {Greater}, {Lesser}) -> Greater
+iif((10-6)>5, {Greater}, {Lesser}) -> Lesser
+iif(10 < 5, {Lesser 1}, iif(10 < 11, {Greater 2}, {Lesser 2})) -> Greater 2
+iif(10 < 5, {Lesser 1}, iif(10 > 11, {Greater 2}, {Lesser 2})) -> Lesser 2
+iif((10-6) < 5, {Lesser 1}, iif(10 > 11, {Greater 2}, {Lesser 2})) -> Lesser 1
+
+**/
+
+**$<b>AmtWord(Amount : Numeric)</b>
+Converts the given amount to words.
+
+Example :
+AmtWord(1356.50) -> One thousand three hundred and fifty six and paise fifty only.
+
+**/
+
+**$<b>CurrAmtWord(Amount : Numeric, Currency, SubCurrency, InMillions: string, Decimals :integer)</b>
+Converts the given amount to words as per the specification.
+
+Currency - Name of the currency to convert to.
+SubCurrency - Name of the sub currency
+InMillions - {T} if amount should be in millions.
+Decimals - number of decimal digits in the amount.
+
+Example :
+CurrAmtword(1200000, {Dollars}, {Cents}, {T}, 2) -> One million two hundred thousand only.
+
+CurrAmtword(1200000, {Rupees}, {Paise}, {T}, 2) -> Twelve lacs only.
+
+**/
+
+**$<b>Val(Num:String)</b>
+Converts given string to numeric. Val({123}) will be 123.
+
+**/
+**$<b>Str(Num :Numeric)</b>
+Converts given number to string. Str(123) will be 123.
+
+**/
+**$<b>SubStr(S:string;posn,Num:numeric)</b>
+Returns num characters from Posn in the string S.
+
+Example :
+Substr({123Abc}, 4, 3) -> Abc
+
+**/
+
+**$<b>AddToDate(Dt:Date;Num:numeric)</b>
+Adds the Num to Dt.
+
+Example :
+AddToDate(Ctod({01/04/2005}, 10) -> 10/04/2005
+
+**/
+**$<b>Encode(Num:Extended;StrCode:String)</b>
+Not in use.
+
+Decode(StrCode:String;Code:String)
+Not in use.
+
+MandY(PDate : Date)
+Returns the month & year in the given date.
+
+Example :
+MandY({01/04/2005}) -> 200504
+MandY({01/10/2006}) -> 200610
+
+**/
+**$<b>HashChar(S:String)</b>
+Returns the sum of byte values in the string s.
+
+**/
+
+**$<b>DaysElapsed(D1,D2:Date)</b>
+Returns the difference in dates between d2 & d1.
+
+Example :
+DaysElapsed({01/04/2005},{10/04/2005}) -> 10
+**/
+**$<b>TimeElapsed(T1,T2:String)</b>
+Returns the difference in terms of seconds between t1 & t1.
+
+Example :
+TimeElapsed({01/04/2004 12:00:00 PM}, {02/04/2004 12:00:00 PM}) -> 24.00
+**/
+**$<b>AddToTime(TimeVar:String; Num:Numeric)</b>
+Not in use.
+**/
+
+**$<b>AddToMonth(D:Date; N:numeric)</b>
+Adds the number to the month in the date.
+
+Example :
+AddToMonth({01/04/2004}, 10) -> 2
+AddToMonth({01/02/2004}, 5) -> 9
+**/
+
+**$<b>LastDayOfMonth(D:Date)</b>
+Returns the last day in the month in the given date.
+
+Example :
+LastDayOfMonth({01/01/2004}) -> 31
+LastDayOfMonth({01/02/2000}) -> 29
+LastDayOfMonth({01/02/2001}) -> 28
+
+**/
+
+**$<b>MakeDate(d, m, y)</b>
+Converts the given year, month, day to a date. 
+
+Example :
+MakeDate(2001, 1, 12) -> 12/01/2001
+
+**/
+**$<b>ValidEncodeDate(year, month, day:numeric)</b>
+Converts the given year, month, day to a date. After converting it to date it validates and adjusts to the last date of the month.
+
+Example :
+ValidEncodeDate(2001, 1, 12) -> 12/01/2001
+ValidEncodeDate(2001, 2, 30) -> 28/02/2000
+ValidEncodeDate(2000, 2, 30) -> 29/02/2000
+
+**/
+
+**$<b>IsEmptyValue(Value, DataType:String)</b>
+Returns T if the given value is empty. For a numeric type 0 is not considered as an empty value. Only '' or 'null' is considered as an empty value.
+
+**/
+
+**$<b>Eval(Expr:String)</b>
+Evaluates the expression and gives the result.
+
+Example :
+Eval(s) -> evaluates the expression stored in S.
+If S contains "A+B". If A is 5 & B is 10 the result of the eval will be 15.
+
+**/
+
+**$<b>Lpad(S: String;Width: integer;padChar: Char)</b>
+Same as LeftPad.
+
+**/
+
+**$<b>Rpad(S: String;Width: integer;padChar: Char)</b>
+Same as Pad.
+
+**/
+    
+**$<b>Power(Num, Power:Numeric)</b>
+Multiplies the Num by itself power times.
+
+Example :
+Power(2, 5) -> 32.
+
+**/
+**$<b>GetMod(Num, Divisor : Numeric)</b>
+Returns the reminder after dividing num by divisor.
+
+Example :
+GetMod(10/3) -> 1
+**/
+
+**$<b>ISEmpty(Value)</b>
+Returns T if the value is empty.
+**/
+
+**$<b>Date()</b>
+Returns current date of local machine.
+**/
+**$<b>Time()</b>
+Retruns current time of local machine.
+**/
+**$<b>Dayofdate(date)</b>
+Returns the day in the date.
+
+Example :
+DayOfDate({01/04/2005}) -> 01
+**/
+
+**$<b>Monthofdate(date)</b>
+Returns the month in the date.
+
+Example :
+MonthOfDate({01/04/2005}) -> 05
+**/
+
+**$<b>Yearofdate(date) : numeric [TStruct/IView]</b>
+Returns the year in the date.
+
+Example :
+YearOfDate({01/04/2005}) -> 2005
+**/
+
+**$<b>Gen_id(S, N) :</b>
+Returns a unique number. The number will be always globally unique if N=0 else it will be unique for that session in that local machine.
+S is not used. So send {} as parameter for S.
+**/
+
+**$<b>FormatDateTime(FormatString, DateTime)</b>
+Formats the given date & time using the format string.
+
+The FormatString could be as given below.
+
+c	Displays the date using the format given by the ShortDateFormat global variable, followed 
+        by the time using the format given by the LongTimeFormat global variable. The time is not 
+        displayed if the date-time value indicates midnight precisely.
+d	Displays the day as a number without a leading zero (1-31).
+dd	Displays the day as a number with a leading zero (01-31).
+ddd	Displays the day as an abbreviation (Sun-Sat) using the strings given by the 
+        ShortDayNames global variable.
+dddd	Displays the day as a full name (Sunday-Saturday) using the strings given by the 
+        LongDayNames global variable.
+ddddd	Displays the date using the format given by the ShortDateFormat global variable.
+dddddd	Displays the date using the format given by the LongDateFormat global variable.
+e	Displays the year in the current period/era as a number without a leading zero (Japanese, 
+        Korean and Taiwanese locales only).
+ee	Displays the year in the current period/era as a number with a leading zero (Japanese, 
+        Korean and Taiwanese locales only).
+g	Displays the period/era as an abbreviation (Japanese and Taiwanese locales only).
+gg	Displays the period/era as a full name. (Japanese and Taiwanese locales only).
+m	Displays the month as a number without a leading zero (1-12). If the m specifier 
+        immediately follows an h or hh specifier, the minute rather than the month is displayed.
+mm	Displays the month as a number with a leading zero (01-12). If the mm specifier 
+        immediately follows an h or hh specifier, the minute rather than the month is displayed.
+mmm	Displays the month as an abbreviation (Jan-Dec) using the strings given by the 
+        ShortMonthNames global variable.
+mmmm	Displays the month as a full name (January-December) using the strings given by the 
+        LongMonthNames global variable.
+yy	Displays the year as a two-digit number (00-99).
+yyyy	Displays the year as a four-digit number (0000-9999).
+h	Displays the hour without a leading zero (0-23).
+hh	Displays the hour with a leading zero (00-23).
+n	Displays the minute without a leading zero (0-59).
+nn	Displays the minute with a leading zero (00-59).
+s	Displays the second without a leading zero (0-59).
+ss	Displays the second with a leading zero (00-59).
+z	Displays the millisecond without a leading zero (0-999).
+zzz	Displays the millisecond with a leading zero (000-999).
+t	Displays the time using the format given by the ShortTimeFormat global variable.
+tt	Displays the time using the format given by the LongTimeFormat global variable.
+am/pm	Uses the 12-hour clock for the preceding h or hh specifier, and displays 'am' for any 
+        hour before noon, and 'pm' for any hour after noon. The am/pm specifier can use lower, 
+        upper, or mixed case, and the result is displayed accordingly.
+a/p	Uses the 12-hour clock for the preceding h or hh specifier, and displays 'a' for any hour 
+        before noon, and 'p' for any hour after noon. The a/p specifier can use lower, upper, or 
+        mixed case, and the result is displayed accordingly.
+ampm	Uses the 12-hour clock for the preceding h or hh specifier, and displays the contents of 
+        the TimeAMString global variable for any hour before noon, and the contents of the 
+        TimePMString global variable for any hour after noon.
+/	Displays the date separator character given by the DateSeparator global variable.
+:	Displays the time separator character given by the TimeSeparator global variable.
+'xx'/"xx"	Characters enclosed in single or double quotes are displayed as-is, and do not 
+                affect formatting.
+
+**/
+
+**$<b>Trim(S:String)</b>
+Removes the leading & trailing spaces & special characters from S.
+
+Firesql(SqlName, SQLText)
+Fires the sql given in SQLText. The SQL result can be accessed in FindRecord & SQLGet functions using the SQLName.
+
+Example :
+FireSQL({SQL1},{Select name, basic from Employees}) - Fires SQL & stores result in SQL1.
+FindRecord({SQL1}, {name}, {Emp-1}) - Finds the record that has name = Emp-1 in SQL1.
+B := SQLGet({SQL1}, {basic}) - Returns the value in the basic column in SQL1 from the current record.
+So the above 3 statements will get all employee details, finds the record with name = emp1 & returns Emp-1's basic salary.
+
+**/
+
+**$<b>FindRecord(SQLName, SearchColumn, SearchValue)Finds the row in the SQL result identified by SQLName that has the SearchValue in the SearchColumn.</b>
+
+Example :
+FireSQL({SQL1},{Select name, basic from Employees}) - Fires SQL & stores result in SQL1.
+FindRecord({SQL1}, {name}, {Emp-1}) - Finds the record that has name = Emp-1 in SQL1.
+B := SQLGet({SQL1}, {basic}) - Returns the value in the basic column in SQL1 from the current record.
+So the above 3 statements will get all employee details, finds the record with name = emp1 & returns Emp-1's basic salary.
+
+**/
+
+**$<b>SQLGet(SQLName, ColumnName)</b>
+Returns the value of the given ColumnName in the current row in the SQL result identified by SQLName.
+
+Example :
+FireSQL({SQL1},{Select name, basic from Employees}) - Fires SQL & stores result in SQL1.
+FindRecord({SQL1}, {name}, {Emp-1}) - Finds the record that has name = Emp-1 in SQL1.
+B := SQLGet({SQL1}, {basic}) - Returns the value in the basic column in SQL1 from the current record.
+So the above 3 statements will get all employee details, finds the record with name = emp1 & returns Emp-1's basic salary.
+
+**/
+
+**$<b>DPImport(FileName)</b>
+This function will import data from a data packet that is stored in a file given by the Filename parameter. This will work just 
+as the import program works.
+
+**/
+
+**$<b>DPExport(DefName, FileName, ExpType, SiteNo)</b>
+This function will export the data into an Ascii file.
+
+DefName - Name of the export definition.
+
+FileName - Name of the ascii file into which the data should be exported into. The format of the export file cannot be changed.
+
+ExpType :- 
+Set ExpType to 'exportall' to export all the data from the transactions defined in the database. 
+
+Set this to 'export' to export only the latest data that has been entered or modified after the last export.
+
+To export data that has been entered/modified after a given date & time, set the date & time to the exptype parameter.
+
+**/
+
+**$<b>FixTree(TransId)</b>
+
+This function will run the fix tree utility that was introduced in 493. Refer to the 493 release document for info on fix tree utility.
+
+**/
+
+**$<b>PostMDMap(Transid)</b>
+This function will run the Re-Update MD Map utility that was introduced in 493. Refer to the 493 release document for info on this utility.
+
+**/
+
+**$<b>Repost(Transid, Condstr)</b>
+This function will run the re-save transaction utility that was introduced in 493. Refer to the 493 release document for info on the utility.
+
+**/
+
+**$<b>Regenerate(Transid)</b>
+This function will run the regenerate transaction utility that was introduced in 493. Refer to the 493 release document for info on the utility.
+
+**/
+
+**$<b>PostGenMap(Transid, GenMaps, ConditionString)</b>
+This function will run the Post Gen Map utility that was introduced in 493. Refer to the 493 release document for info on the utility.GenMaps is a comman delimited string of LinkEntryDocId that need to be posted.
+
+**/
+
+**$<b>Gettransid(TransDesc)</b>
+Returns the transid of the transaction. Transdesc is the caption for the transaction.
+
+**/
+
+**$<b>GetDelimitedStr(SQLResult, FieldName, Delimiter)</b>
+This function creates a string from the SQL Result. The values in the given fieldname will be made into one string 
+with delimited with the given Delimiter.
+
+Example :
+If an SQL result is as follows :
+
+Col1	Col2
+A	10	
+B	20
+C	30
+
+GetDelimitedStr({SQLResult1}, {Col2} ,{,}) -> 10,20,30
+
+**/
+
+STOCK RELATED FUNCTIONS
+-----------------------
+
+**$<b>GetStockValue(ItemId:numeric, DocDate : Date, IssueQty: numeric, VMethod:Char)</b>
+All stock related transactions are stored in the StockValue TStruct. This function will return the value of the quantity issued.
+ It will apply the valuation method gvien by VMethod. Valuation methods could be FIFO or Weighted Average.
+**/
+
+**$GetClosingStock(ItemId: numeric; DocDate: Date; VMethod: string): 
+This function returns the closing stock of the given item on the given DocDate using the valuation method given by VMethod. The closing stock will be registerd in the following variables
+- Op_StockQty
+- Op_StockValue
+- Rec_StockQty
+- Rec_StockValue
+- Iss_StockQty
+- Iss_StockValue
+
+These variables can be used in expressions. These will have the appropriate values after the function is called.
+**/
+IVIEW FUNCTIONS
+---------------
+
+**$<b>GetCell(ColName, RColName, Rvalue: string)</b>
+Returns the Value in ColName from the row in which RColName has RValue.
+
+Example :
+Consider an IView result as follows 
+Col1	Col2	Col3
+A	10	20
+B	30	40
+
+GetCell({Col2}, {Col1}, {A}) -> 10
+
+**/
+
+**$<b>GetRCell(ColName: string; RowNo: integer)</b>
+Returns the value from the cell identified by ColName & RowNo.
+
+Example :
+Consider an IView result as follows 
+Col1	Col2	Col3
+A	10	20
+B	30	40
+
+GetRCell({Col1}, 2) -> B
+
+**/
+
+**$<b>GetColNo(Colname: string)</b>
+Returns the column number of the given column.
+**/
+**$<b>GetRowno(colno: integer; Rvalue: string)</b>
+Returns the Rowno in which the value in the column identified by colno that matches RValue.
+
+Example :
+Consider an IView result as follows 
+Col1	Col2	Col3
+A	10	20
+B	30	40
+
+GetRowNo(1, {B}) -> 2
+
+**/
+
+**$<b>ComputePost(ColName: String; RowNo: integer;Exprn: String)</b>
+Not Used. Maintained for backward compatability.
+
+**/
+
+**$<b>Includes(FieldName, FieldValue :String )</b>
+System Function.
+
+**/
+
+**$<b>Excludes(FieldName, FieldValue :String )</b>
+System Function.
+
+**/
+
+**$<b>Childof(Tablename,FieldName,FieldLevel,FieldValue :String )</b>
+System Function.
+
+**/
+**$<b>SetTotalValue(TotalOrder: Numeric;ColumnName,Value :String)</b>
+Set the given value as the total for the column given by ColumnName. 
+
+Example :
+Consider an IView as follows 
+
+Col1	Col2	Col3
+A	1	20
+B	3	40
+C	5	60
+
+Now assume that at the end of the report in Col2 the Column Avg has to be printed and in Col3 the column total has to be printed. This can be done by using the BefoePrintGT event. This event will be fired before printing the grand total. The column total will be available in expression sets in Tot<ColName> vars. To do this use the expression set given below.
+
+{BeforePrintGT}
+Av := TotCol2/3
+SetTotalValue(0, {Col2}, Str(Av))
+
+When the Grand total line is printed, the total for col2 will be changed to 3 (instead of 9).
+
+**/
+
+**$<b>SetCellFont(ColumnName, FontString)</b>
+This will set the font for the given column. This can be used in expression sets to coditionally change the font of the cell. 
+The FontString could any one of the following 
+[b] - Bold
+[u] - Underline
+[i] - Italic
+
+Alternatively the FontString could be set as follows 
+FontName=Arial,FontSize=10,FontStyle=[b],FontColor=clRed
+
+Example :
+Consider a report as follows 
+----------------------------------------------------------------
+Sales Man		Target		Actual		Variance
+----------------------------------------------------------------
+   A			1000		900		100	
+   B			1000		400		600
+   C			2000		1500		500
+
+Assume that in the Variance column the amount should be displayed in Red Color in Arial Font if the variance is greater than 500. 
+In the above table only the second row fourth column should be in this font. To acheive this requirement define an expression 
+set as follows :
+
+{BeforedisplayCol Variance}
+fstr := iif(variance>500, {fontname=Arial,fontsize=10,fontcolor=clRed}, {})
+SetCellFont({Variance}, fstr)
+
+**/
+
+**$<b>SortIView(ColumnName, AscendingOrDescending)</b>
+This function will sort an IView result in the ascending or descending order of the values in the given column name. This could be 
+used in expression sets.
+
+**/
+
+**$<b>Filter(FilterExpression)</b>
+This function will filter an IView that satisfies the given expression. The expression should return T or F. The expression can use any of 
+the column values.
+
+**/
+
+**$<b>GroupBy(ColumnName)</b>
+This function groups the IView result based on the value in the given column. All rows that have the same value in the given column 
+will be consolidated into one row.
+ 
+**/
+
+**$<b>HideColumn(ColumnName)</b>
+Hides the given column in the IView.
+
+**/
+
+**$<b>UnHideColumn(ColumnName)</b>
+UnHides the given column in the IView.
+
+**/
+
+**$<b>SetExtSequence(Transid, FieldName, Prefix)</b>
+This function can be used in an expression set to select sequences defined in other transactions. 
+
+Note : The functions related to numbering sequence viz SetSequence & SetExtSequence cannot be used in OnFormLoad. Moreover, 
+the case of the parameters should exactly match the ones defined in the tables. That is, if the field name is defined in lower
+case, the field name should be in lower case in these functions also.
+
+
+Example :
+The sequence defined in Purchase voucher can be used in Purchase Returns by calling this function in the expression set (for Purchase return voucher) as 
+
+SetExtSequence({vchpr}, {T1VchNo}, {Pur-}).
+
+**/
+
+**$<b>AddOption(Caption)</b>
+Adds the given caption as a menu option. This will be avaialble on Right Click.
+
+**/
+
+**$<b>EditColumn(Transid, ColumnName, Prompt)</b>
+Allows user to edit a column in an IView. The Column to be edited is given in ColumnName. If the Transid is empty then the editing will not happen.
+
+**/
+
+**$<b>PostRecord(Transid:string; RecordId:Extended)</b>
+This will post the current row in the IView into the TStruct given by Transid & record given by RecordId. 
+
+**/
+
+**$<b>SetColumnValue(ColumnName, Value)</b>
+Sets the given value into the given column in the current row of an IView.
+
+PostRecord(TransId : String, RecordId:Numeric)
+Posts the current row in the IView into the given TStruct. The row will be stored into the Record given by the RecordId parameter. 
+New records cannot be added using this option.
+
+**/
+
+**$<b>RefreshIView()</b>
+Refreshes the IView.
+
+Example for AddOption, EditColumn, PostRecord, SetColumnValue, PostRecord :
+
+AddOption({Edit Date})
+
+{onclick Edit Date}
+EditColumn({try}, {DocDate}, {Enter date})
+
+{AfterEdit DocDate}
+SetColumnValue({DocDate}, DocDate)
+PostRecord({try}, recordid)
+
+**/
+**$<b>RefreshView()</b>
+
+When the user clicks on Reconcile, a pop up window will appear and allow user to enter a date. On click of Ok button in the Pop Up 
+window the AfterEdit event of dt will be executed. 
+
+The SetColumnValue function will update the entered date into the IView. 
+
+The PostRecord will post the updated value from the current row into the the TStruct "try" into the record given by recordid.
+
+**/
+
+**$<b>GetStockAge(Itemid, Date, PeriodStr)</b>
+This function can be used in an IView to get the age of the stock on hand. This is useful only if the valuation method is FIFO. 
+
+Usage :
+Define an IView and get all the rows from the inventory master.
+
+Get the date on which the report is required as a parameter (named AsOnDate).
+
+Add a column named SAge with expression as
+GetStockAge(LocInvDetailid, AsOndate, {0-30,31-60,61-90,91-9999})
+The last parameter can be anything based on the user requirement. This function will make the resultant quantity in the given period 
+in 4 different variables named Age_Qty1, Age_Qty2, Age_Qty3, Age_Qty4.
+
+Add four columns and set each of the above variables as column expression.
+**/
+
+**$<b>DisplayTotal </b>
+This is a system var. Set this variable F to suppress printing of a sub total. 
+
+Example :
+If the total need not be printed if there is only line in the block then, this can be acheived by the following expression set. 
+
+{BeforePrintSt 1}
+DisplayTotal := iif(Tot1RowCount > 1, {t}, {f})
+
+Rowcount is a expression column in the IView with value = 1. 
+
+**/
+
+**$<b>LastTotal </b>
+This is a system var that will be set to true before printing the last total line. This can be used in expression sets.
+**/
+
+**$<b>Tot<ColumnName></b>
+This var will have column total. For every column in the IView, there will be a variable.
+
+Example :
+If there is a column named Amount, TotAmount will contain the column total.
+
+Tot<b><TotalNo><ColumnName></b>
+This var will contain the column with respect to any sub total. Each sub total is identified by the total number. 
+
+Example :
+Consider an IView as follows 
+
+Col1	Col2	Col3
+A	1	10
+A	1	20
+
+Tot-col2	30
+
+A	2	30
+A	2	40
+Tot-col2	70
+
+Tot-Col1	100
+
+B	1	50
+
+After printing each line the Tot variables will be updated. So, before printing the Tot-Col2 for the second time, the Tot2Col3 = 70 & Tot1Col3 = 100.
+
+**/
+
+**$<b>Group<ColumnName></b>
+This var will have the column value after grouping. This could be used to filter report based on grouped values.
+
+**/
+
+**$<b>OpenTransForm(Transcaption, Top, Left, Heigh, Width)</b>
+This function will open an input form related to a TStruct. The caption of the TStruct is given in TransCaption. The Top, Left, Height & WIdth parameters specify the window coordinates in which the input form should be opened.
+
+**/
+
+EXPRESSION SET
+==============
+
+An expression set is a set of Profit 5RM expressions. These could be used to customise the transaction form as needed. Each line in the expression set can contain an event tag or a comment line or a  profit 5RM expression.
+
+An event tag will be {<EventName> <Component Name>}. This tag will be followed by a list of expressions that need to be evaluated for the given event of the given component. 
+
+Comment lines should be preceded with //.
+
+Events in a TStruct are 
+-----------------------
+{OnFormLoad} - Event occurs when a transaction form is created.
+{AfterLoadData} - Occurs after loading transaction data into form.
+{OnExit <Fieldname>} - Occurs when moving out of field.
+{OnEnter <FieldName>} - Occurs when moving into a field.
+{OnClick <Button caption>} - When any button is clicked.
+{OnDCEnter <DCName>} - Occurs when Entering a DC
+{OnDCExit <DCName>} - Occurs when leaving a DC
+{OnChange <FieldName>} - Occurs after a change is made to the field value.
+{OnScroll <FrameNo>} - Applies to grid frames. Occurs when focus changes from one row to another.
+{OnDeleteRow <FrameName> - Occurs when a row is deleted.
+
+Events in an IView are
+----------------------
+{BeforeAcceptParameters} - Occurs before the parameter screen opens.
+{BeforeStartReport} - Occurs before firing SQLs defined for the IView.
+{BeforePrintReport} - Occurs before starting to print the report from the SQL results.
+{BeforePrintCol <ColName>} - Occurs before evaluating a column value for printing.
+{BeforeDisplayCol <ColName>} - Occurs before displaying the column value in the grid.
+{BeforePrintST <TotalNo>} - Occurs before printing a sub total.
+{AfterPrintST <TotalNo>} - Occurs after printing a sub total.
+{BeforePrintGT} - Occurs before printing the grand total.
+{AfterPrintGT} - Occurs after printing the grand total.
+{Onclick <ButtonCaption>} - Occurs before a button click is executed.
+{AfterEdit <ColumnName>} - Occurs after editing a column in an IView.
+
+SYSTEM VARIABLES
+================
+CompanyName - Name of the company into which user has logged in. This is from control table.
+UserName - Name of User logged into the s/w.
+UserCateogry - The Category under which the user is classified.
+UserDepartment - The department under which the user is classified. 
+DbRep - Debit Representation in Financial system.
+CrRep - Credit Representation in Financial system.
+ProfitPath - The path in which P5RM is installed.
+_MainCurr - Main currency set for the project (Eg. Rupees, Dollars etc.)
+_SubCurr - Sub currency set for the project (Eg. Paise, Cents etc.)
+_CurrDecimal - Decimal defined for the project currency.
+finyrst - Financial year start date.
+finyred - Financial year end.
+afinyrst - Used in case of extended financial period.
+afinyred - Used in case of extended financial period.
+_millions - T if amount fields have to be represented in millions.

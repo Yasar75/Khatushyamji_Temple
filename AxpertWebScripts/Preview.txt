@@ -1,0 +1,9 @@
+1¿{/NEWPAGE}
+2¿{/PHSTART}
+3¿{/BoldStart}{/Fontstart fontname = ; fontcolor = clblack ; fontsize = 12}{/Align = center; Value = Customer Details}{/FontEnd}{/NewLine}
+4¿{/NewLine}{/PHEND}
+5¿{/THStart Tablewidth = 1850}{/TCOL Width = 953; Align = Left ; VLine = True; FontName = Arial ; FontSize = 8; FontStyle = ; FontColor = clBlack; value =Customer Name}{/TCOL Width = 897; Align = Left ; VLine = True; FontName = Arial ; FontSize = 8; FontStyle = ; FontColor = clBlack; value =Address}{/TCOL}{/TCOLEND LINE = TRUE }{/THEND}
+6¿{/TableStart}
+7¿{/TRSTART }{/TD  Value =Sreejith}{/TD  Value =Kottayam,}{/TREND LINE = False}
+8¿{/TRSTART }{/TD  Value =}{/TD  Value =erala.}{/TREND LINE = False}
+9¿{/TRSTART }{/TD  Value =}{/TD  Value =}{/REPORTEND}{/TableEnd}

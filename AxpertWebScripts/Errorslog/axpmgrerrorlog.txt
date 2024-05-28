@@ -1,0 +1,152 @@
+uAxpmanger\ConnecttoDB :Unknown auth method
+uAxpmanger\ConnecttoDB :Unknown host 'localhost::5433'.
+Socket Error Code: 11001($2AF9)
+03-06-2023 12:34:15 :postgres\uXDS\execsql - table "axglovar" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\execsql - column "onapprove" of relation "axpmdmaps" already exists
+03-06-2023 12:34:15 :postgres\uXDS\execsql - column "masdec" of relation "axpmdmaps" already exists
+Import Structures Started at : 03-06-2023 12:34:17
+Import Directory : C:\Axpert\Axpert Web\AxpertWebScripts\\AxpDefStructs\Postgre\
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\ainsert - value too long for type character varying(20)
+03-06-2023 12:34:15 :postgres\uIViewTables\InsertIntoIviewHypParValTable - value too long for type character varying(20)
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axprocessdef" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_rulegroup" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_peg_processmaster" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_errcodes" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "ax_configure_fast_prints" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axnotificationdef" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axrulesdef" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_rulesdef" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_language" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "ax_template_fast_prints" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_peg_group" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_lang_master" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_peg_actor" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\ainsert - value too long for type character varying(20)
+03-06-2023 12:34:15 :postgres\uIViewTables\InsertIntoIviewParamsTable - value too long for type character varying(20)
+03-06-2023 12:34:15 :postgres\uXDS\open - column "axusersid" does not exist
+03-06-2023 12:34:15 :postgres\uParse\CTOD - ''01/01/2002'' is not a valid date
+03-06-2023 12:34:15 :postgres\uParse\CTOD - ''01/01/2002'' is not a valid date
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "dwb_publishprops" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpstructconfig" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axcalendar" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_axpertprops" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_axcalendar_event" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "ax_wfcomments" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_processui" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axphelpdocs" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "templates" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "tconfiguration" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "sendmsg" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uPagedesign\CheckInPageDetails - relation "axpagedetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "tblofflntableconfigmst" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "coretstructhdr" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpmsgkeywords" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "iconfiguration" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axtstructhint" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "dsignconfig" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axdsignconfig" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axdsignmail" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "customtypes" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axp_chartconfig" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpscriptrunner" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - column "axusergroupsid" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axintelliviewdet" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axmpagehdr" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axlov" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axglovar" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "financialyear" does not exist
+03-06-2023 12:34:15 :postgres\uParse\DaysElapsed - ''01/01/2002'' is not a valid date and time
+03-06-2023 12:34:15 :postgres\uParse\DaysElapsed - ''01/01/2002'' is not a valid date and time
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axconstraints" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axctx1" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axp_dbwdetails" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpexchange" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpstructconfigprops" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axp_appsearch_data_period" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_tstruct" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_dc" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_mdmap" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_genmap" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\open - relation "axpdef_fillgrid" does not exist
+Import Structures Completed at : 03-06-2023 12:34:34
+03-06-2023 12:34:15 :postgres\uXDS\execsql - column "purpose" of relation "axpstructconfig" already exists
+03-06-2023 12:34:15 :postgres\uXDS\execsql - column "jobdate" of relation "axp_mailjobs" already exists
+03-06-2023 12:34:15 :postgres\uXDS\execsql - table "axusrhistory" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\execsql - column "createdon" of relation "axsms" already exists
+03-06-2023 12:34:15 :postgres\uXDS\execsql - syntax error at or near "NUMERIC"
+03-06-2023 12:34:15 :postgres\uXDS\execsql - "axp_appsearch_data" is not a view
+03-06-2023 12:34:15 :postgres\uXDS\execsql - view "axp_appsearch" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\execsql - could not find a function named "sysdate"
+03-06-2023 12:34:15 :postgres\uXDS\execsql - trigger "tr_axpconfigs_tstructs" for table "tconfiguration" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\execsql - trigger "tr_axpconfigs_iviews" for table "iconfiguration" does not exist
+03-06-2023 12:34:15 :postgres\uXDS\execsql - column "axlang" of relation "axusers" already exists

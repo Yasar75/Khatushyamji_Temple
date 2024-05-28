@@ -1,0 +1,4 @@
+***DLLs in this folder should be used only if DLLs provided in Installer Bundle are not sufficient:
+
+a)It is recommended to use oci.dll from Oracle Bin directory.
+b)In case of "oci.dll missing from system directory" error in 64Bit installations, try changing dbxora.dll

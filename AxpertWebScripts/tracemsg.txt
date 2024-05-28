@@ -1,0 +1,84 @@
+Date Time:23-08-16 2:49:09 PM
+User Name:admin
+User Group:default
+User Roles:default
+ 
+Application Variables
+ 
+User Variables
+ 
+Reading definition vwoidet-
+Initializing Report
+Preparing SQL statements
+Processing Params
+passignto[C]=Murali
+select distinct priority from issuelog union all select 'ALL' priority from dual order by priority
+Time elapsed = 6
+ppriority[C]=
+GetMultiSelectParamTableForDrillDownIviews
+Multi Select Table Names : 
+Assigning values to IView parameters
+passignto(c)=Murali
+passignto=Murali
+ppriority(c)=
+ppriority=
+ppriority(c)=
+Creating Columns
+select  count(*) recno from (select  a.*   from ( select issuelogid, issue_no, resolved_by, issue_date, concat(b.nickname,', ',d.department_name) ifrom, issue_desc, issue_status, f.nickname responsibility, priority 
+from issuelog a
+join axusers b on a.usr=b.pusername 
+join actionlinks c on a.issue_status=c.status
+join department d ON d.departmentid = a.usrdept
+join department e on e.departmentid=a.department
+left outer join axusers f on e.departmentid=f.department and a.assign_tousr= f.username 
+where a.issue_status<>'Closed' and a.assign_to = :passignto
+and (a.priority=:ppriority or :ppriority = 'ALL')
+order by issue_no
+ )a) aa
+passignto=Murali
+ppriority=
+ppriority=
+Time elapsed = 62
+select issuelogid, issue_no, resolved_by, issue_date, concat(b.nickname,', ',d.department_name) ifrom, issue_desc, issue_status, f.nickname responsibility, priority 
+from issuelog a
+join axusers b on a.usr=b.pusername 
+join actionlinks c on a.issue_status=c.status
+join department d ON d.departmentid = a.usrdept
+join department e on e.departmentid=a.department
+left outer join axusers f on e.departmentid=f.department and a.assign_tousr= f.username 
+where a.issue_status<>'Closed' and a.assign_to = :passignto
+and (a.priority=:ppriority or :ppriority = 'ALL')
+order by issue_no
+
+passignto=Murali
+ppriority=
+ppriority=
+Time elapsed = 17
+Time elapsed = 20
+Copying result to grid
+Row 1
+Evaluating column values
+issuelogid = 
+issuelogid = 
+issue_no = 
+issue_no = 
+issue_date = 
+issue_date = 
+ifrom = 
+ifrom = 
+issue_desc = 
+issue_desc = 
+priority = 
+priority = 
+responsibility = 
+responsibility = 
+issue_status = 
+issue_status = 
+resolved_by = 
+resolved_by = 
+Displaying columns
+Storing subtotals
+Time elapsed = 80
+Total Time elapsed = 217
+select Props from axuseraccess where lower(rname)='default' and lower(sname)='newis' and stype = 't'
+Time elapsed = 6

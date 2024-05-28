@@ -1,0 +1,52 @@
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+\uXDS\open - relation "axlic1" does not exist
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+\uXDS\ainsert - column "exeverdet" of relation "axaudit" does not exist
+\uPassword\BitBtn1Click - column "exeverdet" of relation "axaudit" does not exist
+\uXDS\execsql - column "mac" of relation "axaudit" already exists
+03-06-2023 12:34:57 :testing\admin\uXDS\open - date/time field value out of range: "08-24-2020 12:20:20"
+03-06-2023 12:34:57 :testing\admin\uAxprovider\GetAllStructDTime - date/time field value out of range: "08-24-2020 12:20:20"
+03-06-2023 12:34:57 :testing\admin\uXDS\execsql - column "d" of relation "axpages" does not exist
+03-06-2023 12:34:57 :testing\admin\uAxprovider\UpDatedOn_Correction - column "d" of relation "axpages" does not exist
+03-06-2023 12:34:57 :testing\admin\uXDS\execsql - column "s" of relation "axpages" does not exist
+03-06-2023 12:34:57 :testing\admin\uAxprovider\UpDatedOn_Correction - column "s" of relation "axpages" does not exist
+03-06-2023 12:34:57 :testing\admin\uXDS\execsql - syntax error at or near "+"
+03-06-2023 12:34:57 :testing\admin\uAxprovider\UpDatedOn_Correction - syntax error at or near "+"
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+\uXDS\open - relation "axprops" does not exist
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFE0
+\uManage\spbClearClick - password authentication failed for user "khatushyamppaxdef"
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFE0
+\uXDS\open - relation "axprops" does not exist
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+\uXDS\open - relation "connectnoseq" does not exist
+\uDBManager\GetPgaConnectNo - relation "connectnoseq" does not exist
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+\uXDS\open - relation "axlic1" does not exist
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\open - date/time field value out of range: "08-24-2020 12:20:20"
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\GetAllStructDTime - date/time field value out of range: "08-24-2020 12:20:20"
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\execsql - column "d" of relation "axpages" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\UpDatedOn_Correction - column "d" of relation "axpages" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\execsql - column "s" of relation "axpages" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\UpDatedOn_Correction - column "s" of relation "axpages" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\execsql - syntax error at or near "+"
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\UpDatedOn_Correction - syntax error at or near "+"
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\open - invalid input syntax for type timestamp: ""
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\GetAllStructDTime - invalid input syntax for type timestamp: ""
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\execsql - column "d" of relation "lviews" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\UpDatedOn_Correction - column "d" of relation "lviews" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\execsql - column "s" of relation "lviews" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\UpDatedOn_Correction - column "s" of relation "lviews" does not exist
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uXDS\execsql - syntax error at or near "+"
+07/12/2023 06:32:00 PM :khatushyamapp\admin\uAxprovider\UpDatedOn_Correction - syntax error at or near "+"
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF
+\uXDS\open - relation "axlic1" does not exist
+ReadConfig Error : Access violation at address 000000000040ED35 in module 'Axpert.exe'. Read of address FFFFFFFFFFFFFFFF

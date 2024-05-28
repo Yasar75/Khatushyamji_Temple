@@ -1,0 +1,104 @@
+
+PLEASE READ THIS ENTIRE AGREEMENT CAREFULLY. BY USING THIS APPLICATION, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT.
+
+END USER LICENSE AGREEMENT
+
+NOTICE TO ALL USERS: CAREFULLY READ THE FOLLOWING LEGAL AGREEMENT ("AGREEMENT”), WHICH SETS FORTH GENERAL LICENSE TERMS FOR  “AXPERT”  (THE "PROCESS SERVER”). 
+
+This End User License Agreement (“EULA") is a legal agreement between the user and AGILE LABS PRIVATE LTD, Pixel Park 'A'-1st FLoor,PESIT South Campus, Electronics City,Bangalore - 560 100. “AXPERT” the "PROCESS SERVER" identified above, which includes computer SOFTWARE APPLICATION PLATFORM and may include associated media, printed materials, and "online" or electronic documentation. The PROCESS SERVER also includes any updates and supplements to the original SOFTWARE APPLICATION PLATFORM provided to you by AGILE LABS PRIVATE LTD. Any software application provided along with the PROCESS SERVER that is associated with a separate end user license agreement (EULA) is licensed to you under the terms of that license agreement. 
+
+SOFTWARE APPLICATION LICENSE
+
+The SOFTWARE APPLICATION is protected by copyright laws, patent laws and by other intellectual property laws and treaties. The SOFTWARE APPLICATION is licensed to use / transfer, not sold.
+
+GRANT OF LICENSE subject to the payment of the applicable license fees, and subject to the terms and conditions of this Agreement, AGILE LABS PRIVATE LTD., BANGALORE, INDIA hereby grants to you a non exclusive, transferable right to use one copy of the specified version of the SOFTWARE APPLICATION and the accompanying documentation (the "Documentation"). You may install one copy of the SOFTWARE APPLICATION on one Server and access from as many client machines as you want. (here client means computer, workstation, personal digital assistant, "smart phone" or other electronic device for which the SOFTWARE APPLICATION was designed). If the SOFTWARE APPLICATION is licensed as a suite or bundle with more than one specified SOFTWARE APPLICATION, this license applies to all such specified SOFTWARE APPLICATIONS, subject to any restrictions or usage terms specified individually for any of such SOFTWARE APPLICATIONS in the applicable price list, purchase order, invoice or packaging.
+
+USE
+
+The SOFTWARE APPLICATION is licensed, as a single Server APPLICATION; more than one Server may not use it. The SOFTWARE APPLICATION is "in use" on a computer when it is loaded into the temporary memory (i.e., random access memory or RAM) or installed into the permanent memory (e.g., hard disk, CD ROM, or other storage device) of that Client Machine. This license authorizes you to make one copy of the SOFTWARE APPLICATION solely for backup or archival purposes, if the copy you make contains all of the proprietary notices for the SOFTWARE APPLICATION.
+
+UPDATES
+
+During the term of this Agreement, you may download revisions, upgrades, or updates to the SOFTWARE APPLICATION as and when AGILE LABS PRIVATE LTD, BANGALORE, INDIA publishes them via its website or other online services, OTHER MEIDA on charge basis as applicable.
+
+PROPRIETARY RIGHTS
+
+AGILE LABS PRIVATE LTD, BANGALORE, INDIA retains sole and exclusive ownership of all rights, title and interests in the SOFTWARE APPLICATION   and all intellectual property rights relating thereto, including without limitation pending patent applications with respect to the SOFTWARE APPLICATION and the technologies related. AGILE LABS PRIVATE LTD and its suppliers own and retain all right, title and interest in and to the SOFTWARE APPLICATION, including all copyrights, patents, trade secret rights, trademarks and other intellectual property rights therein. Your possession, installation, or use of the SOFTWARE APPLICATION does not transfer to you any title to the intellectual property in the SOFTWARE APPLICATION, and you will not acquire any rights to the SOFTWARE APPLICATION except as expressly set forth in this Agreement. All copies of the SOFTWARE APPLICATION and Documentation made hereunder will contain the same proprietary notice that appears on and in the SOFTWARE APPLICATION and Documentation. Title and related rights in the content provided with the SOFTWARE APPLICATION is the property of the applicable content owner and is protected by applicable law. This section shall survive termination and expiration of this Agreement and shall remain in full force and effect thereafter.
+
+
+COPYRIGHT INFRINGMENT POLICY
+
+AGILE LABS PRIVATE LTD, BANGALORE, INDIA is committed to protecting the rights of copyright right holders and seek to comply with all applicable laws and regulations regarding the protection of intellectual property. Unauthorized copying, distribution, modification, public display or public performance of copyrighted works is a copyright infringement, and AGILE LABS PRIVATE LTD will undertake appropriate steps against copyright offenders. You are responsible for complying with all laws and regulations applicable to the SOFTWARE APPLICATION that are made available or downloaded. You explicitly acknowledge that downloading some files may require authorization and may be subject to restrictions. You hereby undertake to determine what restrictions apply, to comply with all applicable restrictions and to obtain all necessary authorizations. The license to use the SOFTWARE APPLICATION granted hereunder is conditioned upon your agreement not to use the SOFTWARE APPLICATION to infringe the intellectual property rights of others in any way. AGILE LABS PRIVATE LTD, at its sole discretion, may terminate this Agreement with users who infringe the copyrights, or other intellectual property rights, of others.
+
+RESTRICTIONS
+
+You may not rent, lease, loan, resell, copy, reverse engineer, decompile, or disassemble the SOFTWARE APPLICATION, except and only to the extent that applicable law expressly permits such activity. You may not permit third parties to benefit from the use or functionality of the SOFTWARE APPLICATION via a timesharing, service bureau or other arrangement, except to the extent that the applicable price list, purchase order, invoicing or  packaging permits such use. You may not transfer any of the rights granted to you under this Agreement. You may not reverse engineer, decompile, or disassemble the SOFTWARE APPLICATION, except to the extent that applicable law expressly prohibits the foregoing restriction. You will not illegally copy and distribute the SOFTWARE APPLICATION or Documentation. You may not remove any proprietary notices or labels on the SOFTWARE APPLICATION. AGILE LABS PRIVATE LTD reserves all rights not expressly set forth hereunder. AGILE LABS PRIVATE LTD reserves the right to periodically conduct audits upon written notice to verify compliance with the terms of this Agreement.
+
+PRIVACY
+
+In order to enable the development and improvement of SOFTWARE APPLICATION for providing greater consumer experience (by relevant offerings), for the operation of some of the functionalities of the SOFTWARE APPLICATION and for the ability to send you targeted promotional materials of AGILE LABS PRIVATE LTD., or any of its business partners, AGILE LABS PRIVATE LTD., may gather contact information and other personally identifiable information (such as email address, city, and pin code), and demographic information (like their age, occupation or gender). AGILE LABS PRIVATE LTD., its partners, affiliates or other third parties may use any information submitted or collected from you.
+
+AGILE LABS PRIVATE LTD may further gather information, usage pattern, and registration parameters provided by you, the SOFTWARE APPLICATION, system configuration, your IP address and other network information. AGILE LABS PRIVATE LTD, its partners, affiliates or other third parties may use this information provided by you and/ or the SOFTWARE APPLICATION, or information related to, for the purpose of providing the services, providing targeted advertising, marketing, co registration to other services by AGILE LABS PRIVATE LTD or other parties and for the development and improvement of the SOFTWARE APPLICATION provided that if published and / or shared, it will be done only in aggregated form. AGILE LABS PRIVATE LTD may share this information with its business partners with your prior permission.
+
+INDEMNIFICATION
+
+You hereby undertake to comply with any legal obligations, including but not limited to, obligations imposed by copyright, trademarks, patent, secrecy, defamation, decency, and privacy and export laws. You agree to indemnify AGILE LABS PRIVATE LTD and its officers, employees, agents and representatives, and to hold them harmless, from any and all losses, claims and liabilities (including attorneys fees), which may arise from your illegal, unauthorized or abusive use.
+
+TERMINATION
+
+This Agreement is effective unless and until you or AGILE LABS PRIVATE LTD terminates the Agreement earlier, in accordance with the terms set forth herein. This Agreement will terminate automatically if you fail to comply with any of the limitations or other requirements described herein. When this agreement terminates, you must destroy all copies of the SOFTWARE APPLICATION, all of its component parts and the Documentation. You may choose to terminate this Agreement at any point by destroying all copies of the SOFTWARE APPLICATION, all of its component parts and the Documentation.
+
+AMANDMENT OF APPLICATION OR RELATED SERVICES
+
+The SOFTWARE APPLICATION functions, features and any related services provided by AGILE LABS PRIVATE LTD change from time to time. AGILE LABS PRIVATE LTD reserves the right to discontinue and/or terminate and/or limit and/or disable and/or cancel any service provided by AGILE LABS PRIVATE LTD or any part thereof at its sole discretion and without prior notice to you. You hereby agree and acknowledge that AGILE LABS PRIVATE LTD is permitted to limit, disable, eliminate or cancel some or all of the functionality of the SOFTWARE APPLICATION. AGILE LABS PRIVATE LTD reserves the right to discontinue the release and support of any version of the SOFTWARE APPLICATION or to revise the SOFTWARE APPLICATION so it provides different features, features in different combinations, and/or different environment configurations.
+
+
+
+LANGUAGE PACKS
+
+AGILE LABS PRIVATE LTD may, at its sole discretion, offer language packs to enable speakers of languages other than English to use their native languages in the SOFTWARE APPLICATION. AGILE LABS PRIVATE LTD does not and cannot guarantee that the language packs will be available in any languages other than those actually made available by AGILE LABS PRIVATE LTD. To avoid any doubt, you explicitly agree that the English version (including the license agreement relating there to) will prevail in any matter related to the SOFTWARE APPLICATION.
+
+LIMITED WARRANTY
+
+AGILE LABS PRIVATE LTD., offers one year warranty on the media (for example, the diskettes/CDs) from the date of original purchase. If found defective in materials and workmanship, will be replaced free of cost.
+
+SUPPORT
+
+Basic SOFTWARE APPLICATION price does not include Consultancy Support for the software. How ever, you can purchase support services separately from AGILE LABS PRIVATE LTD and or its business partners. 
+
+
+CUSTOMER REMEDIES
+
+AGILE LABS PRIVATE LTD and its suppliers' entire liability, and your exclusive remedy for any breach of the foregoing warranty, shall be, at AGILE LABS PRIVATE LTD option, either (i) to return the purchase price paid for the license, if any, or (ii) to replace the defective media on which the SOFTWARE APPLICATION is contained. You must return the defective media to AGILE LABS PRIVATE LTD at your expense with a copy of your invoice/ receipt. This limited warranty is void if the defect has resulted from accident, abuse, or misapplication. Any replacement media will be warranted for the remainder of the original warranty period. Outside India, this remedy is available where client has to bear the shipping & handling charges.
+
+WARRANTY DISCLAIMER
+
+Except for the limited warranty set forth herein, THE SOFTWARE APPLICATION IS PROVIDED "AS IS". TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AGILE LABS PRIVATE LTD DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT WITH RESPECT TO THE SOFTWARE APPLICATION AND THE ACCOMPANYING DOCUMENTATION. YOU ASSUME RESPONSIBILITY FOR SELECTING THE SOFTWARE APPLICATION TO ACHIEVE YOUR INTENDED RESULTS, AND FOR THE INSTALLATION OF, USE OF, AND RESULTS OBTAINED FROM THE SOFTWARE APPLICATION. WITHOUT LIMITING THE FOREGOING PROVISIONS, AGILE LABS PRIVATE LTD MAKES NO WARRANTY THAT THE SOFTWARE APPLICATION WILL BE ERROR FREE OR FREE FROM INTERRUPTIONS OR OTHER FAILURES, OR THAT THE SOFTWARE APPLICATION WILL MEET YOUR REQUIREMENTS. The foregoing provisions shall be enforceable to the maximum extent permitted by applicable law.
+
+LIMITATION OF LIABILITY
+
+UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT, CONTRACT, OR OTHERWISE, SHALL AGILE LABS PRIVATE LTD OR ITS SUPPLIERS BE LIABLE TO YOU OR TO ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR FOR ANY AND ALL OTHER DAMAGES OR LOSSES. IN NO EVENT WILL AGILE LABS PRIVATE LTD., BE LIABLE FOR ANY DAMAGES IN EXCESS OF THE LIST PRICE AGILE LABS PRIVATE LTD CHARGES FOR A LICENSE TO THE SOFTWARE, EVEN IF AGILE LABS PRIVATE LTD SHALL HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. The foregoing provisions shall be enforceable to the maximum extent permitted by applicable law.
+
+GOVERNMENT
+
+The SOFTWARE APPLICATION and accompanying Documentation are deemed to be "commercial computer software" and "commercial computer software documentation," respectively as applicable. Any use, modification, reproduction, release, performance, display or disclosure of the SOFTWARE APPLICATION and accompanying Documentation by the Government shall be governed solely by the terms of this Agreement and shall be prohibited except to the extent expressly permitted by the terms of this Agreement.
+
+
+HIGH RISK ACTIVITIES
+
+The SOFTWARE APPLICATION is not fault tolerant and is not designed or intended for use in hazardous environments that require fail safe performance, including without limitation, in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, weapons systems, direct life support machines, or any other application In which the failure of the SOFTWARE APPLICATION could lead directly to death, personal injury, or severe physical or property damage (collectively, "High Risk Activities"). AGILE LABS PRIVATE LTD expressly disclaims any express or implied warranty of fitness for High Risk Activities.
+
+
+
+
+MISCELLANEOUS
+
+This Agreement constitutes the entire agreement between the parties concerning the subject matter hereof. Except to the extent applicable law, if any, provides otherwise, the laws of the State of Karnataka, India shall govern this Agreement without giving effect to any principles of conflicts of laws thereof, and the eligible courts of Bangalore shall have exclusive jurisdiction over all disputes between the parties. You may not assign or otherwise transfer by operation of law or otherwise this Agreement or any rights or obligations herein. If any part of this Agreement is found void and unenforceable, it will not affect the validity of the balance of the Agreement, which shall remain valid and enforceable according to its terms. This agreement supersedes any other communications with respect to the SOFTWARE APPLICATION and Documentation. This Agreement may not be modified except by a written addendum issued by a duly authorized representative of AGILE LABS PRIVATE LTD. No provision hereof shall be deemed waived unless suchh waiver shall be in writing and signed by AGILE LABS PRIVATE LTD or a duly authorized representative of AGILE LABS PRIVATE LTD. If any provision of this Agreement is held invalid, the remainder of this Agreement shall continue in full force and effect. The parties confirm that it is their wish that this Agreement has been written in the English language only. AGILE LABS PRIVATE LTD may identify you to the public as a customer of AGILE LABS PRIVATE LTD and describe in a customer case study the services and solutions that AGILE LABS PRIVATE LTD delivers to you. AGILE LABS PRIVATE LTD may also issue one or more press releases containing an announcement of the execution and delivery this Agreement and/or of your implementation of the SOFTWARE APPLICATION. 
+
+COPYRIGHT
+
+Copyright ©   2006 AGILE LABS PRIVATE LTD. All rights reserved. No part of the publication may be reproduced, transmitted, transcribed, stored in a retrieval system, or translated into any language in any form or by any means without the written permission of AGILE LABS PRIVATE LTD.
+
+TRADEMARKS
+
+AXPERT is a trademark of AGILE LABS PRIVATE LTD. All other registered and unregistered trademarks in this document are the sole property of their respective owners.

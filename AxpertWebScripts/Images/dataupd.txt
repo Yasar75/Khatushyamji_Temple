@@ -1,0 +1,8 @@
+Updating tstruct sree
+ Updating Field :inputfield1
+ Updating Field :inputfield2
+ Updating Field :inputfield3
+ Updating Field :ASA
+ Updating Field :AXp_attach
+  Updating DC: dc1
+  Updating DC: dc2

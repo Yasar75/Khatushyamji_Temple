@@ -1,0 +1,6 @@
+Updating tstruct recei
+ Updating Field :dcno
+ Updating Field :ddate
+ Updating Field :name
+ Updating Field :amount
+  Updating DC: dc1

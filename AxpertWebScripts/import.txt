@@ -1,0 +1,269 @@
+Import Started at : 05/19/16 10:54:34 AM
+Import Directory : D:\Export
+
+Importing Transaction from : D:\Export\agen.trn
+Transid : agen
+Caption : Test autogen
+D:\Export\agen.trn : Imported
+
+Importing Transaction from : D:\Export\atimg.trn
+Transid : atimg
+Caption : Test Attached files and images
+D:\Export\atimg.trn : Imported
+
+Importing Transaction from : D:\Export\cdecg.trn
+Transid : cdecg
+Caption : Test currency decimal grid
+D:\Export\cdecg.trn : Imported
+
+Importing Transaction from : D:\Export\cklst.trn
+Transid : cklst
+Caption : Test checklist 1
+D:\Export\cklst.trn : Imported
+
+Importing Transaction from : D:\Export\cmpkm.trn
+Transid : cmpkm
+Caption : Packing List [Kitting]
+D:\Export\cmpkm.trn : Imported
+
+Importing Transaction from : D:\Export\fgexp.trn
+Transid : fgexp
+Caption : Test fillgrid expression
+D:\Export\fgexp.trn : Imported
+
+Importing Transaction from : D:\Export\gdimg.trn
+Transid : gdimg
+Caption : Test grid images
+D:\Export\gdimg.trn : Imported
+
+Importing Transaction from : D:\Export\gfont.trn
+Transid : gfont
+Caption : Test Global font
+D:\Export\gfont.trn : Imported
+D:\Export\PageIvtest123.pge : Imported
+D:\Export\PageIvtesti.pge : Imported
+D:\Export\PageIvtestiv.pge : Imported
+D:\Export\PageIvtestiv1.pge : Imported
+D:\Export\PageIvtestview.pge : Imported
+D:\Export\PageIvtiwp.pge : Imported
+D:\Export\PageIvtstdupiv.pge : Imported
+D:\Export\PageIvtstname.pge : Imported
+D:\Export\PageIvtstname1.pge : Imported
+D:\Export\PageTsagen.pge : Imported
+D:\Export\PageTsatimg.pge : Imported
+D:\Export\PageTscdecg.pge : Imported
+D:\Export\PageTscklst.pge : Imported
+D:\Export\PageTscmpkm.pge : Imported
+D:\Export\PageTsfgexp.pge : Imported
+D:\Export\PageTsgdimg.pge : Imported
+D:\Export\PageTsgfont.pge : Imported
+D:\Export\PageTssgmap.pge : Imported
+D:\Export\PageTstable.pge : Imported
+D:\Export\PageTstacce.pge : Imported
+D:\Export\PageTstactr.pge : Imported
+D:\Export\PageTstclst.pge : Imported
+D:\Export\PageTstest.pge : Imported
+D:\Export\PageTstest3.pge : Imported
+D:\Export\PageTstest4.pge : Imported
+D:\Export\PageTstfgr.pge : Imported
+D:\Export\PageTstgmap.pge : Imported
+D:\Export\PageTstimg.pge : Imported
+D:\Export\PageTstimg1.pge : Imported
+D:\Export\PageTstimgv.pge : Imported
+D:\Export\PageTstlbl.pge : Imported
+D:\Export\PageTstmap.pge : Imported
+D:\Export\PageTstmap3.pge : Imported
+D:\Export\PageTstmap4.pge : Imported
+D:\Export\PageTstmap5.pge : Imported
+D:\Export\PageTstmap6.pge : Imported
+D:\Export\PageTstregv.pge : Imported
+D:\Export\PageTstsave.pge : Imported
+D:\Export\PageTstsche.pge : Imported
+D:\Export\PageTstsel.pge : Imported
+D:\Export\PageTstseq.pge : Imported
+
+Importing Transaction from : D:\Export\sgmap.trn
+Transid : sgmap
+Caption : test genmap source
+D:\Export\sgmap.trn : Imported
+
+Importing Transaction from : D:\Export\table.trn
+Transid : table
+Caption : Table Master
+D:\Export\table.trn : Imported
+
+Importing Transaction from : D:\Export\tacce.trn
+Transid : tacce
+Caption : Test Access Control
+D:\Export\tacce.trn : Imported
+
+Importing Transaction from : D:\Export\tactr.trn
+Transid : tactr
+Caption : Test activerow
+D:\Export\tactr.trn : Imported
+
+Importing Transaction from : D:\Export\tclst.trn
+Transid : tclst
+Caption : Test check list
+D:\Export\tclst.trn : Imported
+
+Importing PDF Print Format from : D:\Export\test$tstpdfdoc.pdf.pdd
+D:\Export\test$tstpdfdoc.pdf.pdd : Imported
+
+Importing Transaction from : D:\Export\test.trn
+Transid : test
+Caption : Test
+D:\Export\test.trn : Imported
+
+Importing Transaction from : D:\Export\test1.trn
+Transid : test1
+Caption : test entry
+D:\Export\test1.trn : Imported
+
+Importing IView from : D:\Export\test123.ivw
+Transid : test123
+Caption : iview1
+D:\Export\test123.ivw : Imported
+
+Importing Transaction from : D:\Export\test3.trn
+Transid : test3
+Caption : test tstruct
+D:\Export\test3.trn : Imported
+
+Importing MS Word Print Format from : D:\Export\test4$test.doc.pwd
+D:\Export\test4$test.doc.pwd : Imported
+
+Importing PDF Print Format from : D:\Export\test4$tmpdf.pdf.pdd
+D:\Export\test4$tmpdf.pdf.pdd : Imported
+
+Importing Transaction from : D:\Export\test4.trn
+Transid : test4
+Caption : test4
+D:\Export\test4.trn : Imported
+
+Importing IView from : D:\Export\TESTAA.ivw
+Transid : TESTAA
+Caption : iview1
+D:\Export\TESTAA.ivw : Imported
+
+Importing IView from : D:\Export\testi.ivw
+Transid : testi
+Caption : test iview
+D:\Export\testi.ivw : Imported
+
+Importing IView from : D:\Export\testiv.ivw
+Transid : testiv
+Caption : iview2
+D:\Export\testiv.ivw : Imported
+
+Importing IView from : D:\Export\testiv1.ivw
+Transid : testiv1
+Caption : testiv1
+D:\Export\testiv1.ivw : Imported
+
+Importing IView from : D:\Export\testview.ivw
+Transid : testview
+Caption : iview2
+D:\Export\testview.ivw : Imported
+
+Importing Transaction from : D:\Export\tfgr.trn
+Transid : tfgr
+Caption : Test fillgrid
+D:\Export\tfgr.trn : Imported
+
+Importing Transaction from : D:\Export\tgmap.trn
+Transid : tgmap
+Caption : test genmap
+D:\Export\tgmap.trn : Imported
+
+Importing Transaction from : D:\Export\timg.trn
+Transid : timg
+Caption : Test image
+D:\Export\timg.trn : Imported
+
+Importing Transaction from : D:\Export\timg1.trn
+Transid : timg1
+Caption : Target TImage
+D:\Export\timg1.trn : Imported
+
+Importing Transaction from : D:\Export\timgv.trn
+Transid : timgv
+Caption : Test image field validation
+D:\Export\timgv.trn : Imported
+
+Importing IView from : D:\Export\tiwp.ivw
+Transid : tiwp
+Caption : Test iview with params
+D:\Export\tiwp.ivw : Imported
+
+Importing Transaction from : D:\Export\tlbl.trn
+Transid : tlbl
+Caption : Test Label
+D:\Export\tlbl.trn : Imported
+
+Importing Transaction from : D:\Export\tmap.trn
+Transid : tmap
+Caption : test genmap2
+D:\Export\tmap.trn : Imported
+
+Importing Transaction from : D:\Export\tmap3.trn
+Transid : tmap3
+Caption : test genmap3
+D:\Export\tmap3.trn : Imported
+
+Importing Transaction from : D:\Export\tmap4.trn
+Transid : tmap4
+Caption : test genmap4(grid)
+D:\Export\tmap4.trn : Imported
+
+Importing Transaction from : D:\Export\tmap5.trn
+Transid : tmap5
+Caption : test genmap5
+D:\Export\tmap5.trn : Imported
+
+Importing Transaction from : D:\Export\tmap6.trn
+Transid : tmap6
+Caption : test genmap6
+D:\Export\tmap6.trn : Imported
+
+Importing Transaction from : D:\Export\tregv.trn
+Transid : tregv
+Caption : test reg sql row
+D:\Export\tregv.trn : Imported
+
+Importing Transaction from : D:\Export\tsave.trn
+Transid : tsave
+Caption : Test SaveControl
+D:\Export\tsave.trn : Imported
+D:\Export\tsche.trnImport Failed, Reason : Invalid object name 'testdhurgasequence'
+
+Importing Transaction from : D:\Export\tsel.trn
+Transid : tsel
+Caption : Test selection
+D:\Export\tsel.trn : Imported
+
+Importing Transaction from : D:\Export\tseq.trn
+Transid : tseq
+Caption : test sequence
+D:\Export\tseq.trn : Imported
+
+Importing IView from : D:\Export\tst.ivw
+Transid : tst
+Caption : test
+D:\Export\tst.ivw : Imported
+
+Importing IView from : D:\Export\tstdupiv.ivw
+Transid : tstdupiv
+Caption : iview2
+D:\Export\tstdupiv.ivw : Imported
+
+Importing IView from : D:\Export\tstname.ivw
+Transid : tstname
+Caption : iview2
+D:\Export\tstname.ivw : Imported
+
+Importing IView from : D:\Export\tstname1.ivw
+Transid : tstname1
+Caption : tstname1
+D:\Export\tstname1.ivw : Imported
+Import Completed at : 05/19/16 10:56:28 AM

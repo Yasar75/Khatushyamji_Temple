@@ -1,0 +1,2 @@
+<connections>
+	<khatushyamapp><type>db</type><structurl/><db>Postgre</db><driver>dbx</driver><version></version><dbcon>localhost:5433</dbcon><dbuser>khatushyamapp\postgres</dbuser><pwd>000301590161015232163450607080013</pwd><dataurl/></khatushyamapp><khatushyamappaxdef><type>db</type><structurl/><db>Postgre</db><driver>dbx</driver><version></version><dbcon>localhost:5433</dbcon><dbuser>khatushyamappaxdef\postgres</dbuser><pwd>000301590161015232163450607080013</pwd><dataurl/></khatushyamappaxdef></connections>

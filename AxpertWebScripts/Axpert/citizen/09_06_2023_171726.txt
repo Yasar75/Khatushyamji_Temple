@@ -1,0 +1,55 @@
+ASB XE3/32/64 DLL running
+[Compiled on 14/02/2022 20:44:40] [File Version : 11.0.0.0]] [Product Version : 11.0][]
+DB Manager created
+Current ASB DLL folder : C:\Axpert\Axpert Web\AxpertWebScripts
+Received JSON : {"login":{"axpapp":"khatushyamapp","username":"citizen","password":"agile","seed":"","other":"chrome","trace":"true"}}
+Received XML : <root axpapp="khatushyamapp" username="citizen" password="agile" seed="" other="chrome" trace="true"><axprops getfrom=" " setto=" "><skin>DarkBlue</skin><login>local</login><lastlogin>oracleproject</lastlogin><lastusername>admin</lastusername><licenseurl>111.93.187.30/abtsscripts</licenseurl><axhelp>true</axhelp></axprops></root>
+
+Connecting to project : khatushyamapp
+Connecting to project found : 0
+Specified project not available
+Db Manager Connection starts
+Db Manager Connection XML receied : <khatushyamapp><type>db</type><structurl/><db>Postgre</db><driver>dbx</driver><version></version><dbcon>localhost:5433</dbcon><dbuser>khatushyamapp\postgres</dbuser><pwd>000301590161015232163450607080013</pwd><dataurl/></khatushyamapp>
+creating connection starts...
+creating connection end...
+creating date xds...
+creating date xds end...
+PostGreConnect starts...
+PostGreConnect ends...
+db user : khatushyamapp
+Select now() as sdt 
+Time elapsed = 9
+Db Manager Connection ends
+Connection to DB Successful 
+Executing Login webservice
+--------------------------
+Verifying username and password
+User Name : citizen
+Select * from AXUSERS WHERE USERNAME =:U 
+U=citizen
+Time elapsed = 26
+Password checking
+Login webservice completed
+
+
+# 1#Saving to log
+insert into axmwslog (sessionid,username,calledon,callfinished,structname,recordid,servicename,serviceresult,timetaken,dbtimetaken,db_conntime) values ('374288.195618.14868','citizen',to_timestamp('09/06/2023 17:17:26','dd/mm/yyyy hh24:mi:ss'),to_timestamp('09/06/2023 17:17:26','dd/mm/yyyy hh24:mi:ss'),null,0,'Login','Invalid username or password',367,35,0)
+
+Closing connection
+Freeing AxProvider Resources
+Freeing DbManager Resources
+Destroying Default xds in db manager 
+Destroying connect object
+Disconnecting from db khatushyamapp
+Keep Connection setting false
+Disconnecting...
+Disconnected...
+Dbx name = 
+ConnectionName  = 
+DriverName  = 
+GetDriverFunc  = 
+LibraryName  = 
+VendorLib  = 
+Successfully disconnected from db khatushyamapp
+Destroyed connect object
+Destroying GF

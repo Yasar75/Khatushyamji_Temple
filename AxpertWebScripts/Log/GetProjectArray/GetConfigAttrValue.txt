@@ -1,0 +1,3 @@
+Start Time : 20-07-2023 12:38:19
+GetConfigAttrValue function -Index and length must refer to a location within the string.
+Parameter name: length

@@ -1,0 +1,12 @@
+Updating tstruct bner
+ Updating Field :inputfield4
+ Updating Field :inputfield5
+ Updating Field :img1
+ Updating Field :inputfield6
+ Updating Field :inputfield7
+ Updating Field :axp_attach
+ Updating Field :inputfield8
+ Updating Field :dc2_image
+  Updating DC: dc1
+  Updating DC: dc2
+  Updating GenMap: bner1
